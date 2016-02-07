@@ -23,9 +23,7 @@ bool P196(unsigned long l);
 int main()
 {
 
-int MAX = 10000;
-
-        for (int i = 10; i < MAX; i++) //Loop through all possible values of a ULONG_MAX
+        for (int i = 10; i < ULONG_MAX; i++) //Loop through all possible values of a ULONG_MAX
         {
             P196(i);
         }
